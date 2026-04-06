@@ -1,0 +1,17 @@
+[project]
+name            = "dune-api"
+version         = "0.1.0"
+description     = "Add your description herePython API for Dune Analytics"
+readme          = "README.md"
+requires-python = ">=3.15"
+dependencies    = [
+    "dune-client>=1.10.0",
+]
+
+[project.optional-dependencies]
+
+dev = ["dune-client>=1.0.0"]
+
+[build-system]
+requires      = ["pdm-backend"]
+build-backend = "pdm.backend"
