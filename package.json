@@ -11,9 +11,9 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@trigger.dev/sdk": "^4.4.3"
+    "@trigger.dev/sdk": "^4.5.4"
   },
   "devDependencies": {
-    "@trigger.dev/build": "^4.4.3"
+    "@trigger.dev/build": "^4.5.4"
   }
 }
